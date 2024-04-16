@@ -213,8 +213,8 @@ int main(int argc, char **argv) {
 
 	// Ncurses stuff
 	initscr();
-    cbreak(); // Disable line buffering
-    noecho(); // Don't echo user input to the screen
+    cbreak();
+    noecho(); 
 	nodelay(stdscr, TRUE);
 	keypad(stdscr, TRUE);
 
